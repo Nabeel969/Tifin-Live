@@ -1,0 +1,145 @@
+.MainCourse {
+  padding-top: 70px;
+}
+.MainCourseText {
+  color: #336e4e;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  /* font-family: Besley; */
+  background-color: rgb(228 228 237 / 86%);
+}
+
+.MainCourseBackgroundImage1 {
+  height: 90px;
+  background-image: url("../../assets/Rectangle\ 10.png");
+  background-repeat: no-repeat;
+  width: 350px;
+}
+
+.MainCoursebutton .button {
+  background: linear-gradient(180deg, #336e4e 0%, #4bbd7f 100%),
+    linear-gradient(0deg, #ca231b, #ca231b);
+  font-weight: 500;
+  width: 150px;
+  border: 1px solid #ca231b;
+  border-radius: 10px;
+  color: white;
+}
+
+.MainCoursebutton .button:hover {
+  background: linear-gradient(0deg, #336e4e 0%, #4bbd7f 100%),
+    linear-gradient(180deg, #ca231b, #ca231b);
+}
+
+.MainCoursebuttonMenu {
+  display: grid;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.MainCoursebutton .buttonWeek {
+  background: linear-gradient(0deg, #336e4e 0%, #4bbd7f 100%),
+    linear-gradient(180deg, #ca231b, #ca231b);
+  color: white;
+  border: 1px solid #ca231b;
+  border-radius: 10px;
+}
+
+.MainCoursebutton .buttonWeek:hover {
+  background: linear-gradient(180deg, #336e4e 0%, #4bbd7f 100%),
+    linear-gradient(0deg, #ca231b, #ca231b);
+}
+
+.MainCourseImage div {
+  height: 15rem;
+}
+
+.MainCoursetext-danger {
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #ca231b;
+}
+
+.MainCoursetext-price {
+  color: #336e4e;
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.MainCourseImage1 {
+  margin-bottom: 130px;
+}
+
+.MainCourseImage2 {
+  margin-bottom: 180px;
+}
+
+.MainCourseImage7 {
+  border-radius: 20px 0 20px 0;
+  background: linear-gradient(90deg, #662a27, #ca231b);
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-left: 35%;
+}
+
+.MainCourseDiv {
+  display: grid;
+  align-items: center;
+  margin-right: 5px;
+  justify-content: center;
+}
+.MainCourseimage {
+  transition: 0.2s linear;
+  height: 140px;
+  width: 140px;
+  border: 1px solid #ca231b;
+  border-radius: 10% 0 10% 0;
+  padding: 3px;
+  display: grid;
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+}
+
+.MainCourseimage:hover {
+  transform: scale(1.01);
+  border: none;
+  box-shadow: 0 5px 5px gray;
+}
+.image:hover {
+  transform: scale(1.1);
+  border: none;
+  box-shadow: 0 5px 5px gray;
+}
+@media only screen and (max-width: 990px) {
+  .MainCourseImage7 {
+    margin: 0;
+  }
+  .MainCourseImage1 {
+    margin-bottom: 0px;
+  }
+
+  .MainCourseImage2 {
+    margin-bottom: 0px;
+  }
+  .MainCoursebuttonMenu {
+    height: 0;
+  }
+  .MainCourseimage {
+    height: 150px;
+  }
+  .MainCoursetext-danger {
+    font-size: 18px;
+  }
+  .MainCoursetext-price {
+    font-size: 18px;
+  }
+}

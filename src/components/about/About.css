@@ -1,0 +1,40 @@
+.AboutText{
+    font-weight: 600;
+    font-size: 32px;
+    color: #CA231B;
+}
+
+.AboutImage1{
+    width: 100%;
+}
+
+.AboutBackgroundImage1{
+    height: 3rem;
+    background-image: url('../../assets/Rectangle\ 19.png');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+.AboutBackgroundText{
+    color: white;
+display: flex;
+padding: 10px;
+text-align: center;
+margin-left: 15px;
+}
+
+.AboutImage3{
+    display: none;
+}
+
+@media only screen and (max-width: 998px){
+    .AboutImage3{
+        display: block;
+    }
+    .AboutImage4{
+        display: none;
+    }
+    .AboutImage2{
+        height: 100%;
+    }
+}

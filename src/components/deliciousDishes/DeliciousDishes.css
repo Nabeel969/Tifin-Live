@@ -1,0 +1,24 @@
+.dishes .text{
+   color:  #336E4E;
+   text-align: center ;
+   font-weight: 500; 
+   font-size :32px;
+   /* font-family: Besley; */
+   background-color:rgb(228 228 237 / 86%);
+}
+
+.image{
+    height: 140px;
+    width: 140px;
+    border:1px solid  #CA231B;
+    border-radius: 50%;
+    padding: 3px;
+    display: grid;
+    justify-content: center;
+}
+
+.dishes p{
+text-align: center;
+margin: 0;
+font-weight: 500;
+}

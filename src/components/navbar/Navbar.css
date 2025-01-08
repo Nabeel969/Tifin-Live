@@ -1,0 +1,124 @@
+.navbar{
+    position: fixed !important;
+    height: 60px;
+    display: flex;
+    right: 0;
+    left: 0;
+    padding: 0px 50px;
+    flex-direction: row;
+    /* font-family: Source Sans Pro; */
+    background-color: #FFFFFF;
+    z-index: 99;
+}
+.logo-wrapper{
+    height: 50px;
+}
+.logo-wrapper img{
+    cursor: pointer;
+    margin-top: -5px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    
+    padding: 12px 20px 0px;
+}
+.nav-list li{
+    padding: 0px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: #CA231B;
+}
+
+.search{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content:end;
+}
+.search>:nth-child(2){
+    margin-left: 30px;
+}
+.search-wrapper input{
+    border-style: none;
+    outline-style: none;
+    width: 120px;
+}
+.search-wrapper{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #336e4e;
+}
+.search-wrapper span{
+    border-left: 1px solid #336e4e;
+    padding: 5px;
+}
+
+/* Mobile View */
+.sidebar{
+    position: fixed;
+    right: 0;
+    margin-top: -30px;
+    float: right;
+    background-color: azure;
+    /* padding: 5px; */
+    height: 100vh;
+}
+.sidebar ul{
+    padding: 0;
+}
+.sidebar ul li{
+    list-style: none;
+    padding: 8px 20px;
+}
+.sidebar ul li:not(.search-list-item):hover{
+    background-color: rgb(192, 228, 215);
+}
+.sidebar-search-wrapper input{
+    border-style: none;
+    outline-style: none;
+    width: 120px;
+}
+.sidebar-search-wrapper{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #336e4e;
+}
+.sidebar-search-wrapper span{
+    border-left: 1px solid #336e4e;
+    padding-left: 5px;
+}
+.mobile-view{
+    display: none;
+    color: #336e4e;
+}
+
+
+@media (max-width: 1024px) {
+    .nav-list li{
+        padding: 0px 10px;
+    }
+    .search-wrapper input{
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-list, .search{
+        display: none;
+    }
+    .toggle{
+        display: inline-block;
+    }
+    .mobile-view{
+        display: inline-block;
+    }
+}

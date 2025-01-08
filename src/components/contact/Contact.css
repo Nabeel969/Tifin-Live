@@ -1,0 +1,73 @@
+.contactBackgroundImage1{
+    background-image: url('../../assets/Rectangle\ 32.png');
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactBackgroundImage2{
+    background-image: url('../../assets/Rectangle\ 29.png');
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(48, 46, 46);
+}
+
+.contactInput1{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 80%;
+    padding: 18px;
+
+    /* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover;
+select:-webkit-autofill:focus;  */
+  /* border: 1px solid  linear-gradient(270deg, #262626 46.79%, #48474D 100%);
+  -webkit-text-fill-color: linear-gradient(270deg, #262626 46.79%, #48474D 100%);
+  -webkit-box-shadow: 0 0 0px 1000px linear-gradient(270deg, #262626 46.79%, #48474D 100%);
+  transition: background-color 5000s ease-in-out 0s; */
+}
+
+.contactButton1{
+    color: white;
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    margin: 0  ;
+}
+
+::placeholder{
+    color: white;
+}
+
+.contactImage3{
+    display: none;
+}
+
+.contactImage4{
+    display: block;
+}
+
+@media only screen and (max-width: 640px){
+    .contactImage3{
+        display: block;
+    }
+    .contactImage4{
+        display: none;
+    }
+}
